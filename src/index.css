@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark mode base */
+html.dark body {
+  background-color: #0f0a1e;
+  color: #e2d9f3;
+}
+
+@layer components {
+  .card-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .card-hover:hover {
+    @apply shadow-xl translate-y-[-4px];
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-violet-600 text-white font-medium rounded-xl
+           transition-all duration-300 hover:bg-violet-700
+           hover:shadow-lg hover:scale-105 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-white text-violet-700 font-medium rounded-xl
+           border-2 border-violet-200 transition-all duration-300
+           hover:bg-violet-50 hover:border-violet-400 hover:scale-105;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-violet-900 dark:text-violet-200 mb-6;
+  }
+
+  .subsection-title {
+    @apply text-xl md:text-2xl font-semibold text-violet-800 dark:text-violet-300 mb-4;
+  }
+}
+
+@layer utilities {
+  .gradient-bg {
+    background: linear-gradient(135deg, #ede9fe 0%, #ffffff 50%, #fef3c7 100%);
+  }
+
+  .dark .gradient-bg {
+    background: linear-gradient(135deg, #1e1035 0%, #0f0a1e 50%, #1a1000 100%);
+  }
+
+  .gradient-violet {
+    background: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%);
+  }
+
+  .gradient-card {
+    background: linear-gradient(145deg, #ffffff 0%, #f5f3ff 100%);
+  }
+
+  .dark .gradient-card {
+    background: linear-gradient(145deg, #1e1035 0%, #16082e 100%);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);
+  }
+
+  .dark .text-gradient {
+    background-image: linear-gradient(135deg, #a78bfa 0%, #c4b5fd 100%);
+  }
+
+  .glass {
+    @apply bg-white/80 backdrop-blur-lg;
+  }
+
+  .dark .glass {
+    background: rgba(15, 10, 30, 0.85);
+    backdrop-filter: blur(16px);
+  }
+
+  .shadow-soft {
+    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.1);
+  }
+
+  .dark .shadow-soft {
+    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.25);
+  }
+
+  .shadow-glow {
+    box-shadow: 0 0 40px rgba(139, 92, 246, 0.15);
+  }
+
+  .dark .shadow-glow {
+    box-shadow: 0 0 40px rgba(139, 92, 246, 0.35);
+  }
+}
