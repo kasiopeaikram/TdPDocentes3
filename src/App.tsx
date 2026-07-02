@@ -222,7 +222,7 @@ function App() {
             </div>
                 <br></br><br></br><br></br>
                   <div className="text-center mb-12">
-                    <h2 className="section-title">𝐏𝐫𝐞𝐬𝐞𝐧𝐭𝐚𝐜𝐢𝐨́𝐧</h2>
+                    <h2 className="section-title">Presentación</h2>
                   </div>
                 <p className="text-lg text-violet-800 dark:text-violet-200 font-semibold">
                   Este espacio digital documenta el proceso de formación desarrollado en Taller de Prácticas Docentes III. En él compartimos nuestras experiencias, observaciones institucionales, propuestas didácticas, recursos y reflexiones construidas durante las prácticas docentes de campo a cargo de la <b><u>Profesora Inés Rodriguez</u></b>. Nuestro propósito es evidenciar el aprendizaje alcanzado y la construcción progresiva del rol docente, inspirados en una enseñanza innovadora, reflexiva y centrada en los estudiantes.
@@ -256,7 +256,7 @@ function App() {
           </div>
           <br></br><br></br>
             <div className="text-center mb-12">
-              <h2 className="section-title"><u>𝑨𝒄𝒄𝒆𝒅𝒆́ 𝒂 𝒍𝒂𝒔 𝑼𝒏𝒊𝒅𝒂𝒅𝒆𝒔 𝒂 𝑻𝒓𝒂𝒗𝒆́𝒔 𝒅𝒆 𝐂𝐥𝐢𝐜𝐤𝐬</u></h2>
+              <h2 className="section-title"><u>Accedé a las Unidades a Través de Clicks</u></h2>
             </div>
           {/* ==================== 4 CAPITULOS INDIVIDUALES ==================== */}
           <div className="grid md:grid-cols-4 gap-6 mb-12">
