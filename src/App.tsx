@@ -357,7 +357,7 @@ function App() {
             {/* ========== PDF 1 ========== */}
             <div className="bg-white dark:bg-violet-950/60 rounded-xl border-2 border-violet-200 dark:border-violet-800/50 overflow-hidden">
               <div className="w-full h-48 bg-violet-50 dark:bg-violet-900/40 flex items-center justify-center">
-                <iframe src="pdf/1_bibliografia/Melina_Furman.pdf" className="w-full h-full" title="Documento PDF 1" />
+                <img src="img/1_bibliografia/1.png" alt="Melina Furman" className="w-full h-full object-cover" title="Documento PDF 1" />
               </div>
               <div className="p-4 border-t border-violet-200 dark:border-violet-800/50">
                 <div className="flex items-center gap-3">
@@ -377,7 +377,7 @@ function App() {
             {/* ========== PDF 2 ========== */}
             <div className="bg-white dark:bg-violet-950/60 rounded-xl border-2 border-violet-200 dark:border-violet-800/50 overflow-hidden">
               <div className="w-full h-48 bg-violet-50 dark:bg-violet-900/40 flex items-center justify-center">
-                <iframe src="pdf/1_bibliografia/IA_en_la_educacion.pdf" className="w-full h-full" title="Documento PDF 2" />
+                <img src="img/1_bibliografia/2.png" alt="Melina Furman" className="w-full h-full object-cover" title="Documento PDF 1"/>
               </div>
               <div className="p-4 border-t border-violet-200 dark:border-violet-800/50">
                 <div className="flex items-center gap-3">
@@ -397,7 +397,7 @@ function App() {
             {/* ========== PDF 3 ========== */}
             <div className="bg-white dark:bg-violet-950/60 rounded-xl border-2 border-violet-200 dark:border-violet-800/50 overflow-hidden">
               <div className="w-full h-48 bg-violet-50 dark:bg-violet-900/40 flex items-center justify-center">
-                <iframe src="pdf/1_bibliografia/Guia_de_Orientacion.pdf" className="w-full h-full" title="Documento PDF 3" />
+                <img src="img/1_bibliografia/3.png" alt="Melina Furman" className="w-full h-full object-cover" title="Documento PDF 1"/>
               </div>
               <div className="p-4 border-t border-violet-200 dark:border-violet-800/50">
                 <div className="flex items-center gap-3">
