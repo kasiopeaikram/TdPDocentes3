@@ -1033,7 +1033,7 @@ function ResidenciaContent({ name }: { name: string }) {
                 <div className="p-2 border-t border-violet-200 dark:border-violet-800/50 flex items-center gap-2">
                   <FileText className="w-4 h-4 text-violet-500" />
                   <span className="text-sm text-violet-600 dark:text-violet-400 flex-1">documento-{n}.pdf</span>
-                  <a href="" download className="text-xs px-2 py-1 bg-violet-600 text-white rounded hover:bg-violet-700">Descargar</a>
+                  <a href="pdf/En_Construccion.pdf" download className="text-xs px-2 py-1 bg-violet-600 text-white rounded hover:bg-violet-700">Descargar</a>
                 </div>
               </div>
             ))}
